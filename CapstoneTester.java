@@ -5,7 +5,7 @@ abstract interface RoomBillComponent{
 	public double food = 800;
 	float calculateBill();
 }
-//class accquiring the access to datamembers of a class and defining the abstarct methods of an Interface is //called as Implementing the Interface
+//class accquiring the access to datamembers of a class and defining the abstarct methods of an Interface is called as Implementing the Interface
 //This can be done with the help of the keyword "implements"
 class RoomDetails implements RoomBillComponent{
 	int billId;
